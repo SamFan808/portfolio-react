@@ -1,4 +1,5 @@
 import React from "react";
+import profilePic from "../../Assets/images/profilepic_2.jpg";
 
 function About() {
   return (
@@ -10,11 +11,7 @@ function About() {
               <section class="card-body">
                 <h2>About Me</h2>
                 <hr />
-                <img
-                  src="Assets/images/profilepic_2.jpg"
-                  class="img-fluid"
-                  alt="profile picture"
-                />
+                <img src={profilePic} class="img-fluid" alt="profile picture" />
                 <p>
                   Sam was born on the island of O'ahu in the State of Hawaii. He
                   was raised by native geese, known in Hawaiian as the Nene.

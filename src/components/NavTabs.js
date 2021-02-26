@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./styles.css";
+import gitHub from "../Assets/icons/GitHub-Mark-32px.png";
+import linkedIn from "../Assets/icons/LI-light-32px.png";
 
 function NavTabs() {
   const location = useLocation();
@@ -41,7 +43,7 @@ function NavTabs() {
                     : "nav-link"
                 }
               >
-                Blog
+                Portfolio
               </Link>
             </li>
             <li className="nav-item">
@@ -58,18 +60,10 @@ function NavTabs() {
             </li>
           </ul>
           <a href="https://github.com/SamFan808" target="blank">
-            <img
-              src="../Assets/icons/GitHub-Mark-Light-32px.png"
-              alt="github logo"
-              id="git"
-            />
+            <img src={gitHub} alt="github logo" id="git" />
           </a>
           <a href="https://www.linkedin.com/in/SamFan808/" target="blank">
-            <img
-              src="Assets/icons/LI-light-32px.png"
-              alt="github logo"
-              id="linkedin"
-            />
+            <img src={linkedIn} alt="linkedin logo" id="linkedin" />
           </a>
         </div>
       </nav>
