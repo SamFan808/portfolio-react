@@ -45,10 +45,7 @@ h4 {
 .card {
   background-color: rgb(150, 150, 150);
   margin-top: 15px;
-}
-
-.row {
-  margin-right: 0;
+  margin-left: 15px;
 }
 
 footer {
@@ -87,10 +84,6 @@ p {
 /* portfolio --------------------*/
 .carousel-indicators {
   margin-bottom: 0;
-}
-
-article .card {
-  margin-left: 15px;
 }
 
 #git {
