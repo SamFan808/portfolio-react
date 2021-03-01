@@ -39,10 +39,7 @@ h4 {
 
 .nav-link {
   font-size: 18px;
-}
-
-.navbar {
-  padding-right: 10px;
+  color: rgb(38, 184, 184) !important;
 }
 
 .card {
@@ -63,13 +60,11 @@ footer {
   margin-top: 15px;
   text-align: center;
   font-size: small;
-  color: rgb(167, 23, 162);
-  background-color: steelblue;
+  background-color: rgba(38, 184, 184, 0.329);
 }
 
 /* about me --------------------*/
-
-section img {
+.img-fluid {
   float: left;
   width: 350px;
   margin-right: 5%;
@@ -77,9 +72,9 @@ section img {
   margin-bottom: 3%;
 }
 
-section p {
+p {
   padding-right: 15px;
-  color: rgb(255, 239, 17);
+  color: rgb(38, 184, 184);
 }
 
 /* contact ---------------------*/
@@ -87,16 +82,6 @@ section p {
   background-color: rgb(150, 150, 150);
   margin-top: 15px;
   padding: 15px;
-}
-
-.form-group {
-  margin: 15px;
-  padding-bottom: 15px;
-  width: 90%;
-}
-
-.btn {
-  margin: 15px;
 }
 
 /* portfolio --------------------*/
@@ -123,13 +108,13 @@ article .card {
   padding-bottom: 10px;
 }
 
-.far {
+.icon {
   margin-left: 15px;
-  color: rgb(155, 35, 35);
+  color: rgb(38, 184, 184);
 }
 
 .resume {
-  color: rgb(221, 221, 221);
+  color: rgb(38, 184, 184);
 }
 
 .fas {

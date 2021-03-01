@@ -1,24 +1,28 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
+import { Container, Card, Col, Row } from "react-bootstrap";
+import resume from "../../Assets/resume_v6_1.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 function Contact(props) {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+    <Container fluid>
+      <Row>
+        <Col sm={4} xs={12}>
+          <Card>
+            <Card.Body>
+              <h2>Contact Me</h2>
+              <h4>303.725.6329</h4>
+              <h4>samisfan@msn.com</h4>
+              <a href={resume} download="resume_v6_1.pdf">
+                <FontAwesomeIcon icon={faFile} className="icon" />
+                <span className="resume"> resume-pdf format</span>
+              </a>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
