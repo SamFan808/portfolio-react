@@ -1,9 +1,4 @@
 /* general styling ---------------- */
-body {
-  /* background-image: url("./Images/background.jpg"); */
-  background-color: rgb(187, 207, 212);
-}
-
 h1 {
   font-size: 45px;
   color: rgb(221, 221, 221);
@@ -24,11 +19,18 @@ h3 {
 }
 
 h4 {
-  font-size: small;
-  color: rgb(255, 255, 255);
+  font-size: 24px;
   text-align: left;
   color: rgb(58, 26, 100);
   margin-left: 15px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 15px;
+  color: rgb(58, 26, 100);
 }
 
 .container-fluid {
@@ -43,9 +45,12 @@ h4 {
 }
 
 .card {
-  background-color: rgb(150, 150, 150);
   margin-top: 15px;
-  margin-left: 15px;
+}
+
+.content {
+  background-color: rgb(194, 229, 229);
+  padding: 15px;
 }
 
 footer {
@@ -57,7 +62,8 @@ footer {
   margin-top: 15px;
   text-align: center;
   font-size: small;
-  background-color: rgba(38, 184, 184, 0.329);
+  color: white;
+  background-color: rgb(90, 90, 90);
 }
 
 /* about me --------------------*/
@@ -82,10 +88,6 @@ p {
 }
 
 /* portfolio --------------------*/
-.carousel-indicators {
-  margin-bottom: 0;
-}
-
 #git {
   margin-left: 10px;
 }
