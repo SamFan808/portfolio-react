@@ -14,13 +14,15 @@ function ProjectCard(props) {
           </li>
           <li>
             <strong>Link to repo:</strong>{" "}
-            <a href={props.url} target="#blank">
+            <a href={props.url} target="#">
               {props.url}
             </a>
           </li>
         </ul>
         <div className="img-container">
-          <img alt={props.name} src={props.image} className="proj" />
+          <a href={props.deployed} target="#">
+            <img alt={props.name} src={props.image} className="proj" />
+          </a>
         </div>
       </div>
     </div>

@@ -19,6 +19,7 @@ function Portfolio() {
                 description={project.description}
                 language={project.language}
                 url={project.url}
+                deployed={project.deployed}
               />
             ))}
           </Card>
