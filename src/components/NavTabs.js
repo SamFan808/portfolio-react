@@ -14,9 +14,9 @@ function NavTabs() {
         <h1>Samuel Fan</h1>
         <Nav className="ml-auto">
           <Link
-            to="/"
+            to="/about"
             className={
-              location.pathname === "/" ? "nav-link active" : "nav-link"
+              location.pathname === "/about" ? "nav-link active" : "nav-link"
             }
           >
             About
