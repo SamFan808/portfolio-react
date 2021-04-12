@@ -22,7 +22,7 @@ Revised portfolio using React
 
 ## Installation
 
-Link to deployed site: https://portfolio-samfan.netlify.app/
+Link to deployed site: https://samakesthings.com/
 
 ## Languages
 
