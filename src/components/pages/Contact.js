@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Card, Col, Row } from "react-bootstrap";
-import resume from "../../Assets/resume_v7.pdf";
+import resume from "../../Assets/resume_fan2021.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 
@@ -14,7 +14,7 @@ function Contact(props) {
               <h2>Contact Me</h2>
               <h4>303.725.6329</h4>
               <h4>samisfan@msn.com</h4>
-              <a href={resume} download="resume_v7.pdf">
+              <a href={resume} download="resume_fan2021.pdf">
                 <FontAwesomeIcon icon={faFile} className="icon" />
                 <span className="resume"> resume-pdf format</span>
               </a>
