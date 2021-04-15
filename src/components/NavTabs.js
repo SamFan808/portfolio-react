@@ -11,7 +11,14 @@ function NavTabs() {
     <Navbar expand="md" bg="dark">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <h1>Samuel Fan</h1>
+        <Link
+          to="/about"
+          className={
+            location.pathname === "/about" ? "nav-link active" : "nav-link"
+          }
+        >
+          <h1>Samuel Fan</h1>
+        </Link>
         <Nav className="ml-auto">
           <Link
             to="/about"
