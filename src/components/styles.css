@@ -69,12 +69,13 @@ footer {
 /* about me --------------------*/
 .img-fluid {
   float: left;
-  width: 350px;
+  width: 300px;
   margin-right: 5%;
   margin-top: 1%;
   margin-bottom: 3%;
 }
 
+li,
 p {
   padding-right: 15px;
   color: rgb(38, 184, 184);

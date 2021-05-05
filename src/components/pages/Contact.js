@@ -14,6 +14,7 @@ function Contact(props) {
               <h2>Contact Me</h2>
               <h4>303.725.6329</h4>
               <h4>samisfan@msn.com</h4>
+              <h4>Denver, CO</h4>
               <a href={resume} download="resume_fan2021.pdf">
                 <FontAwesomeIcon icon={faFile} className="icon" />
                 <span className="resume"> resume-pdf format</span>
